@@ -1,3 +1,6 @@
+on charger
+    setprop sys.powerctl reboot,leaving-off-mode-charging
+
 service healthd /system/bin/healthd
     class hal
     critical
